@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    padding: 10px 8%;
+    padding: 10px 10%;
 }
 
 nav {
@@ -31,10 +31,11 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 18px;
 }
 
 .logo {
-    width: 300px;
+    width: 160px;
 }
 
 nav ul li {
@@ -408,6 +409,27 @@ nav .fa-solid {
 
     .copyright {
         font-size: 14px;
+    }
+}
+
+/*Span for Vu*/
+@media only screen and (min-width: 1417px) {
+    #vu {
+        display: none;
+    }
+}
+
+/*Span for Phuong*/
+@media only screen and (min-width: 1180px) {
+    #charles {
+        display: none;
+    }
+}
+
+/* Stop Vu from going into next line if Charles already in next line */
+@media only screen and (max-width: 1180px) {
+    #vu {
+        display: none;
     }
 }
 
